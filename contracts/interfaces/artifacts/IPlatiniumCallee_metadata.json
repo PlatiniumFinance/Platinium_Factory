@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "pancakeCall",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/IPlatiniumCallee.sol": "IPlatiniumCallee"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IPlatiniumCallee.sol": {
+			"keccak256": "0xa9a5891e2c037877006b8e3f9fc3ea47079bd02ae84a6c1fef897404db38bd27",
+			"urls": [
+				"bzz-raw://8f0cde23d08197088ea02dac493aa84926022903e814517b963a8a38a3e4def3",
+				"dweb:/ipfs/QmWGgZAATXjwS4keBru85tzVrCpKNfyKPTnQ4X8VjnwQtA"
+			]
+		}
+	},
+	"version": 1
+}
